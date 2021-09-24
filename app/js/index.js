@@ -3,6 +3,7 @@ import {smoothScroll} from "./modules/smoothScroll.js";
 import {tabs} from "./modules/tabs.js";
 import {modal} from "./modules/modal.js";
 import {burger} from "./modules/burger.js";
+import {sendForm} from "./modules/sendForm.js";
 
 
 accordion()
@@ -10,3 +11,4 @@ smoothScroll()
 tabs()
 modal()
 burger()
+sendForm()

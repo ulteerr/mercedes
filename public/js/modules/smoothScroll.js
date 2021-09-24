@@ -1,0 +1,1 @@
+const linksHead=document.querySelectorAll(".menu-list__link"),mainScroll=document.querySelector(".main__scroll"),newArray=[...linksHead,mainScroll],smoothScroll=()=>{newArray.forEach(e=>{e.addEventListener("click",e=>{e.preventDefault();e=e.target.getAttribute("href").substr(1);document.getElementById(e).scrollIntoView({behavior:"smooth",block:"start"})})})};export{smoothScroll};

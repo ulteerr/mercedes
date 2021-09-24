@@ -1,0 +1,1 @@
+const modalBtn=document.querySelectorAll(".more"),modalBlock=document.querySelector(".modal"),modal=()=>{modalBtn.forEach(o=>{o.addEventListener("click",()=>{modalBlock.classList.remove("hidden")})}),modalBlock.addEventListener("click",o=>{const l=o.target;(l.classList.contains("overlay")||l.classList.contains("modal__close"))&&modalBlock.classList.add("hidden")})};export{modal};

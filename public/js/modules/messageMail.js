@@ -1,0 +1,1 @@
+const createMessage=document.querySelector(".message"),messageMail=()=>{createMessage.classList.remove("hidden"),createMessage.addEventListener("click",e=>{const s=e.target;(s.classList.contains("overlay")||s.classList.contains("modal__close"))&&createMessage.classList.add("hidden")})};export{messageMail};
